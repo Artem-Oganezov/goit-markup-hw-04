@@ -190,6 +190,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:focus,
@@ -327,10 +328,11 @@ img {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soc-icon {
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 
 .soc-link:hover,
@@ -350,6 +352,7 @@ img {
   background: #fff;
   height: 420px;
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-thumb {
@@ -368,7 +371,7 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   background-color: #4d5ae5;
-  padding: 32px 40px;
+  padding: 40px 32px;
   top: 0;
   left: 0;
   height: 100%;
@@ -430,6 +433,11 @@ img {
   padding-bottom: 100px;
 }
 
+.footer-cont {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -464,11 +472,14 @@ img {
   margin-bottom: 16px;
 }
 
+.footer-logo-block {
+  margin-right: 120px;
+}
+
 .social {
   width: 208px;
   height: 80px;
   display: block;
-  margin-left: 120px;
 }
 
 .footer-soc-link {
@@ -480,6 +491,7 @@ img {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soc-item {
@@ -497,14 +509,10 @@ img {
 }
 
 .footer-soc-icon {
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: #31d0aa;
-}
-
-.footer-cont {
-  display: flex;
 }
